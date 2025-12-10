@@ -24,7 +24,7 @@ builder.Services.AddScoped<ProdutoAppService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
